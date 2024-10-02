@@ -1,21 +1,199 @@
-<!-- 
-Online HTML, CSS and JavaScript editor to run code online.
--->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Browser</title>
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blu - Coral Reef Restoration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f0f8ff;
+        }
 
-	<body>
-		<h1>Write, edit and run HTML, CSS and JavaScript code online.</h1>
-		<p>
-			Our HTML editor updates the webview automatically in real-time as
-			you write code.
-		</p>
-		<script src="script.js"></script>
-	</body>
-</html>
+        header {
+            background-color: #00bcd4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #00bcd4;
+            font-size: 2em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #00bcd4;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .content {
+            line-height: 1.6;
+        }
+
+        .contact-form {
+            background-color: #e0f7fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact-form h2 {
+            color: #00796b;
+        }
+        
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #00bcd4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #0097a7;
+        }
+
+        .google-translate {
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'ko,en', // 한국어와 영어만 포함
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Blu</h1>
+            <p>Innovating Coral Reef Restoration</p>
+        </div>
+    </header>
+    <main>
+        <div class="google-translate" id="google_translate_element"></div>
+        <section class="about">
+            <div class="container">
+                <p class="content">Blu is a company dedicated to restoring coral reefs and protecting marine ecosystems through innovative technology.</p>
+                <h2>About Us</h2>
+                <p class="content">Blu is a pioneering company dedicated to the ambitious goal of restoring coral reefs around the world. Coral reefs are vital marine ecosystems that support a diverse array of marine life, yet they face numerous threats from climate change, pollution, and overfishing. At Blu, we are committed to reversing the damage done to these crucial habitats by leveraging our expertise in advanced restoration technologies.</p>
+               
+            </div>
+        </section>
+        <section class="technology">
+            <div class="container">
+                <h2>Our Technology</h2>
+                <p class="content">At Blu, we employ a range of cutting-edge technologies to facilitate the restoration of coral reefs. One of our key innovations is the development of artificial reef structures designed to simulate the natural habitats that corals need to thrive. These structures are meticulously engineered to provide optimal conditions for coral larvae to settle and grow.</p>
+                <p class="content">Our artificial reefs are made from durable, eco-friendly materials that mimic the texture and composition of natural coral substrates. By creating these environments, we help to accelerate the growth of coral colonies and support the overall recovery of reef ecosystems. Additionally, our technology includes real-time monitoring systems that allow us to track the health and progress of the restored reefs, ensuring that our interventions are effective and sustainable.</p>
+                <p class="content">Blu’s approach not only aims to restore coral reefs but also to enhance the resilience of these ecosystems against future environmental challenges. Through our innovative techniques, we strive to create vibrant, self-sustaining coral communities that will benefit marine life and contribute to the preservation of ocean biodiversity.</p>
+                <img src="coralreef.jpeg" alt="Coral Reef Restoration">
+            </div>
+        </section>
+        <section class="projects">
+            <div class="container">
+                <h2>Our Projects</h2>
+                <p class="content">Blu is actively involved in several groundbreaking projects aimed at restoring coral reefs in various locations around the globe. Each project is tailored to the specific needs of the region and incorporates local knowledge and expertise.</p>
+                <p class="content">For example, our recent project in the Caribbean involves deploying custom-designed artificial reefs to restore damaged coral areas affected by recent hurricanes. In the Pacific, we are working on a large-scale coral nursery to grow and transplant corals to degraded reef areas.</p>
+                <p class="content">Stay tuned for updates on these and other projects as we continue to make strides in coral reef restoration and marine conservation.</p>
+            </div>
+        </section>
+        <section class="impact">
+            <div class="container">
+            <img src="3coral.png" alt="Coral reef picture">
+                <h2>Our Impact</h2>
+                <p class="content">At Blu, we measure our success not just by the projects we complete, but by the lasting impact we have on the ecosystems we restore. Our efforts in coral reef restoration contribute to the revival of marine biodiversity, which is essential for healthy ocean environments.</p>
+                <p class="content">Through our initiatives, we have successfully restored several coral reef areas, providing habitats for countless marine species and enhancing local fisheries. Our restored reefs not only serve as homes for fish but also provide food sources, creating a thriving ecosystem. We are committed to sharing our findings and experiences with the broader community, inspiring others to join the movement for ocean conservation.</p>
+            </div>
+        </section>
+        <section class="get-involved">
+            <div class="container">
+                <h2>Get Involved</h2>
+                <p class="content">We invite you to be a part of our mission to restore coral reefs and protect marine ecosystems. There are many ways you can get involved:</p>
+                <ul>
+                    <li><strong>Volunteer</strong>: Join us in our restoration projects and help make a difference in marine conservation.</li>
+                    <li><strong>Donate</strong>: Your contributions support our initiatives and help fund vital research and restoration efforts.</li>
+                    <li><strong>Spread the Word</strong>: Share our mission with friends and family to raise awareness about coral reef conservation.</li>
+                </ul>
+                <p class="content">Together, we can create a healthier ocean for future generations. Contact us for more information on how you can help!</p>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p class="content">If you have any questions or would like to learn more about our work, please get in touch with us. We would love to hear from you!</p>
+                <div class="contact-form">
+                    <h2>Get in Touch</h2>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Blu. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</
